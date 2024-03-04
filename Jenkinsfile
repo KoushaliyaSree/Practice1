@@ -18,7 +18,7 @@ pipeline {
             steps {
                 // Install Node.js dependencies using npm
                 sh 'npm install'
-            }
+            }//Hello
         }
 
         stage('Build') {
