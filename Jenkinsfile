@@ -21,10 +21,10 @@ pipeline {
             }
         }
 
-        stage('start') {
+        stage('build') {
             steps {
                 // Build your Node.js application (if needed)
-                sh 'npm run start'
+                sh 'npm build'
             }
         }
 
