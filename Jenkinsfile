@@ -7,7 +7,12 @@ pipeline {
         }
 
     stages {
-      
+       stage('Checkout') {
+            steps {
+                // Checkout the code from your version control system
+                git branch: 'main', url: 'https://github.com/KoushaliyaSree/Practice1.git'
+            }
+        }
    
 
         stage('Build') {
