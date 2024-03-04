@@ -21,7 +21,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('start') {
             steps {
                 // Build your Node.js application (if needed)
                 sh 'npm run start'
