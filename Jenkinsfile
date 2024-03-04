@@ -3,7 +3,7 @@ pipeline {
 
         tools {
         // Define Node.js tool named 'NodeJS'
-        nodejs 'Node'
+        nodejs 'node'
         }
 
     stages {
