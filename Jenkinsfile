@@ -7,19 +7,8 @@ pipeline {
         }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from your version control system
-                git 'https://github.com/KoushaliyaSree/Practice1.git'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                // Install Node.js dependencies using npm
-                sh 'npm install'
-            }//Hello
-        }
+      
+   
 
         stage('Build') {
             steps {
