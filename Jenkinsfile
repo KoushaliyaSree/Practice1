@@ -24,7 +24,7 @@ pipeline {
         stage('build') {
             steps {
                 // Build your Node.js application (if needed)
-                build 'https://github.com/KoushaliyaSree/Practice1.git'
+               sh 'npm start'
             }
         }
 
